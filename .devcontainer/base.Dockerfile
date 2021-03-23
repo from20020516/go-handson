@@ -1,6 +1,6 @@
 # [Choice] Go version: 1, 1.16, 1.15
 ARG VARIANT=1
-FROM golang:${VARIANT}
+FROM arm64v8/golang:${VARIANT}
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
